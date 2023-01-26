@@ -1,16 +1,21 @@
-### Hi there 👋
+# 🚀 TMCYTB's GitHub Profile
 
-<!--
-**TMCYTB/TMCYTB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![GitHub followers](https://img.shields.io/github/followers/TMCYTB?label=Follow&style=social&logo=github)](https://github.com/TMCYTB) [![GitHub stars](https://img.shields.io/github/stars/TMCYTB/repos?style=social&logo=github)](https://github.com/TMCYTB)
 
-Here are some ideas to get you started:
+## 💼 About Me
+I am an entrepreneur in the IT space, I like automation and cars 🏎️
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📈 Statistics
+- Total Repositories: `{{TOTAL_REPOS}}`
+- Total Commits: `{{TOTAL_COMMITS}}`
+
+## 💻 Programming Languages
+![GitHub top language C#](https://img.shields.io/github/languages/top/TMCYTB/repos?color=blue&logo=c%23)
+![GitHub top language HTML](https://img.shields.io/github/languages/top/TMCYTB/repos?color=blue&logo=html5)
+![GitHub top language Dart](https://img.shields.io/github/languages/top/TMCYTB/repos?color=blue&logo=dart)
+![GitHub language count](https://img.shields.io/github/languages/count/TMCYTB/repos?color=blue)
+
+## 🛠 Projects
+- [Rust Code Tester](https://github.com/TMCYTB/CodeTester) 🔧
+- [Polkacity Marketplace Sniper](https://github.com/TMCYTB/POLC-Sniper-Scalperino) 💰
+
