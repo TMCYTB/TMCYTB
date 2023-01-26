@@ -1,6 +1,6 @@
 # 🚀 TMCYTB's GitHub Profile
 
-[![GitHub followers](https://img.shields.io/github/followers/TMCYTB?label=Follow&style=social&logo=github)](https://github.com/TMCYTB) [![GitHub stars](https://img.shields.io/github/stars/TMCYTB/repos?style=social&logo=github)](https://github.com/TMCYTB)
+[![GitHub followers](https://img.shields.io/github/followers/TMCYTB?label=Follow&style=social&logo=github)](https://github.com/TMCYTB) 
 
 ## 💼 About Me
 I am an entrepreneur in the IT space, I like automation and cars 🏎️
