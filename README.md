@@ -10,12 +10,11 @@ I am an entrepreneur in the IT space, I like automation and cars 🏎️
 - Total Commits: `{{TOTAL_COMMITS}}`
 
 ## 💻 Programming Languages
-![GitHub top language C#](https://img.shields.io/github/languages/top/TMCYTB/repos?color=blue&logo=c%23)
-![GitHub top language HTML](https://img.shields.io/github/languages/top/TMCYTB/repos?color=blue&logo=html5)
-![GitHub top language Dart](https://img.shields.io/github/languages/top/TMCYTB/repos?color=blue&logo=dart)
-![GitHub language count](https://img.shields.io/github/languages/count/TMCYTB/repos?color=blue)
+![GitHub Back End / Most Used C#](https://img.shields.io/static/v1?label=C%23&message=top%20language&color=blue&logo=c%23)
+![GitHub Front End HTML](https://img.shields.io/static/v1?label=HTML&message=top%20language&color=blue&logo=html5)
+![GitHub Mobile Apps Flutter](https://img.shields.io/static/v1?label=Flutter&message=top%20language&color=blue&logo=flutter)
 
 ## 🛠 Projects
-- [Rust Code Tester](https://github.com/TMCYTB/CodeTester) 🔧
+- [Rust Code Raider](https://github.com/TMCYTB/CodeTester) 🔧
 - [Polkacity Marketplace Sniper](https://github.com/TMCYTB/POLC-Sniper-Scalperino) 💰
 
