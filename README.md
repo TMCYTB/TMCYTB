@@ -10,7 +10,3 @@
 
 ## 💼 About Me
 **I am an entrepreneur in the IT space, I like automation and cars 🏎**️
-
-## 🛠 Projects
-- [Rust Code Raider](https://github.com/TMCYTB/CodeTester) 🔧
-- [Polkacity Marketplace Sniper](https://github.com/TMCYTB/POLC-Sniper-Scalperino) 💰
