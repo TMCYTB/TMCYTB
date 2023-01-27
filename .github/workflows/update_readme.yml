@@ -1,0 +1,49 @@
+name: Update README
+
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  dispatch:
+    types: [manual]
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+    - name: Get Repo Statistics
+      id: repo_stats
+      run: |
+        TOTAL_REPOS=$(curl -s "https://api.github.com/users/TMCYTB/repos?per_page=1000" | jq '.[].name' | wc -l)
+        TOTAL_COMMITS=$(curl -s "https://api.github.com/users/TMCYTB/events" | jq '.[] | select(.type == "PushEvent") | .payload.commits | length')
+        echo ::set-output name=total_repos::$TOTAL_REPOS
+        echo ::set-output name=total_commits::$TOTAL_COMMITS
+    - name: Get Repo Languages
+      id: repo_languages
+      run: |
+        LANGUAGES=$(curl -s "https://api.github.com/users/TMCYTB/repos?per_page=1000" | jq '.[] | .language' | sort | uniq -c | sort -r)
+        echo ::set-output name=languages::$LANGUAGES
+    - name: Update README
+      run: |
+        echo "# 🚀 TMCYTB's GitHub Profile" > README.md
+        echo "## 💻 Programming Languages" >> README.md
+        echo "![GitHub Back End / Most Used C#](https://img.shields.io/static/v1?label=C%23&message=Back%20End%20/%20Most%20Used&color=blue&logo=c%23)" >> README.md
+        echo "![GitHub Front End HTML](https://img.shields.io/static/v1?label=HTML&message=Front%20End&color=blue&logo=html5)" >> README.md
+        echo "![GitHub Mobile Apps Flutter](https://img.shields.io/static/v1?label=Flutter&message=Mobile%20Apps&color=blue&logo=flutter)" >> README.md
+        echo "" >> README.md
+        echo "## 📈 Statistics" >> README.md
+        echo "- Total Repositories: \`${{ steps.repo_stats.outputs.total_repos }}\`" >> README.md
+        echo "- Total Commits: \`${{ steps.repo_stats.outputs.total_commits }}\`" >> README.md
+        echo "" >> README.md
+        echo "## 💼 About Me" >> READ
+        echo "- [Rust Code Raider](https://github.com/TMCYTB/CodeTester) 🔧" >> README.md
+        echo "- [Polkacity Marketplace Sniper](https://github.com/TMCYTB/POLC-Sniper-Scalperino) 💰" >> README.md
+    - name: Commit and Push
+      run: |
+        git config --local user.email "github-actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add README.md
+        git commit -m "Update README with latest statistics"
+        git push
