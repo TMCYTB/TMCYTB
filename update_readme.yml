@@ -1,8 +1,11 @@
 name: Update README
 
+
 on:
   schedule:
     - cron: '0 12 * * *'
+  dispatch:
+    types: [manual]
 
 jobs:
   update_readme:
