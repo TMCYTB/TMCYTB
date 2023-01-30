@@ -4,7 +4,7 @@ name: Update README
 on:
   schedule:
     - cron: '0 12 * * *'
-  dispatch:
+  push:
     types: [manual]
 
 jobs:
