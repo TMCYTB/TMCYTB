@@ -4,8 +4,7 @@ name: Update README
 on:
   schedule:
     - cron: '0 12 * * *'
-  push:
-    types: [manual]
+  workflow_dispatch:
 
 jobs:
   update_readme:
