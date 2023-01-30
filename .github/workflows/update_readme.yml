@@ -15,8 +15,8 @@ jobs:
     - name: Get Repo Statistics
       id: repo_stats
       run: |
-        TOTAL_REPOS=$(curl -s "https://api.github.com/users/TMCYTB/repos?per_page=1000" | jq '.[].name' | wc -l)
-        TOTAL_COMMITS=$(curl -s "https://api.github.com/users/TMCYTB/events" | jq '.[] | select(.type == "PushEvent") | .payload.commits | length')
+        TOTAL_REPOS=$(curl -s -H "Authorization: token ${secrets.API_KEY}" "https://api.github.com/users/TMCYTB/repos?per_page=1000" | jq '.[].name' | wc -l)
+        TOTAL_COMMITS=$(curl -s -H "Authorization: token ${secrets.API_KEY}" "https://api.github.com/users/TMCYTB/events" | jq '.[] | select(.type == "PushEvent") | .payload.commits | length')
         echo ::set-output name=total_repos::$TOTAL_REPOS
         echo ::set-output name=total_commits::$TOTAL_COMMITS
     - name: Get Repo Languages
