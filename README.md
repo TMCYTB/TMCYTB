@@ -5,8 +5,8 @@
 ![GitHub Mobile Apps Flutter](https://img.shields.io/static/v1?label=Flutter&message=Mobile%20Apps&color=blue&logo=flutter)
 
 ## 📈 Statistics
-- Total Repositories: `{{TOTAL_REPOS}}`
-- Total Commits: `{{TOTAL_COMMITS}}`
+- Total Repositories: `2`
+- Total Commits: `1 1 1 1 1 1 1 1 1 1 1 1 1`
 
-## 💼 About Me
-**I am an entrepreneur in the IT space, I like automation and cars 🏎**️
+- [Rust Code Raider](https://github.com/TMCYTB/CodeTester) 🔧
+- [Polkacity Marketplace Sniper](https://github.com/TMCYTB/POLC-Sniper-Scalperino) 💰
